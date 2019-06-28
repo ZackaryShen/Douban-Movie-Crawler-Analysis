@@ -416,6 +416,41 @@ class Process_Data:
         ax2.yaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
         ax2.barh(xl, yl)
 
+    def MaleAndFemale(self):
+        """
+        We have some data about number of male and female
+        In a good comments for few type of movies
+        :return: None
+        """
+        # use a dict to recore
+        self.man_and_female = {'爱情': {'男': 60, '女': 73}, '战争': {'男': 63, '女': 67},
+                               '喜剧': {'男': 75, '女': 46}, '悬疑': {'男': 62, '女': 63},
+                               '科幻': {'男': 89, '女': 44}}
+        ############################################################################
+        # self.myfont is definee in self.Process_init(self)
+        # It is used to show Chinese correctly
+        # useage:fontproperties=self.myfont
+        ############################################################################
+
+        labels = []
+        proportion = []
+        for type, mf in self.man_and_female.items():
+            labels.append(type)
+            proportion.append(mf['男'] / mf['女'])
+
+        # the bar chart
+        fig, ax = plt.subplots()
+        # This line is to solve the garbled problem that the source data is Chinese.
+        plt.xticks(fontproperties=self.myfont)
+        plt.xlabel('类型', fontproperties=self.myfont)
+        plt.ylabel('好评男女比例%', fontproperties=self.myfont)
+        plt.title('2018几种类型的好评男女比例(男/女)柱状图', fontproperties=self.myfont)
+        ax.hlines(1, 8, -1, linestyles='--', colors='#FF0000', label='男女比例相同')
+        # Draw a horizontal histogram to show more information
+        ax.bar(labels, proportion)
+
+
+
 
 if __name__ == '__main__':
     # We must make that the Rank function only run once for each csv file
@@ -430,4 +465,5 @@ if __name__ == '__main__':
     pp.Ex_Rank_Region()
     pp.Draw_Months()
     pp.Draw_Credit()
+    pp.MaleAndFemale()
     plt.show()
