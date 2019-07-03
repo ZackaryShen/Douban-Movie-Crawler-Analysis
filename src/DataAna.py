@@ -249,10 +249,10 @@ class Process_Data:
         """
         for types, movies in self.processed_type.items():
             # Sort the data by movies's credit, and draw it
-            movies = movies.sort_values(by='评分', ascending=True)
+            movies = movies.sort_values(by='评分', ascending=False)
             # mode='a' means append
             # index=False, do not store the index
-            movies.to_csv('/home/zackary/programing/Python/Data_Analysis/Datas/RankByType/' + \
+            movies.to_csv('/home/zackary/programing/Python/Douban-Movie-Crawler-Analysis/Datas/RankByType/' + \
                           types + '电影2018年的排名.csv', mode='a', index=False)
 
     def Ex_Rank_Region(self):
@@ -264,10 +264,10 @@ class Process_Data:
 
         for regions, movies in self.processed_region.items():
             # Sort the data by movies's credit, and draw it
-            movies = movies.sort_values(by='评分', ascending=True)
+            movies = movies.sort_values(by='评分', ascending=False)
             # mode='a' means append
             # index=False, do not store the index
-            movies.to_csv('/home/zackary/programing/Python/Data_Analysis/Datas//RankByRegion/' + \
+            movies.to_csv('/home/zackary/programing/Python/Douban-Movie-Crawler-Analysis/Datas//RankByRegion/' + \
                           regions + '地区的电影2018年的排名.csv', mode='a', index=False)
 
     def Draw_Months(self):
