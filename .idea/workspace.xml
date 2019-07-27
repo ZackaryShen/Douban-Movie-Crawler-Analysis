@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2d028bd-47f3-4c24-bed9-3dd65ad7d5d8" name="Default Changelist" comment="" />
+    <list default="true" id="f2d028bd-47f3-4c24-bed9-3dd65ad7d5d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Datas/RankByRegion/Canada地区的电影2018年的排名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datas/RankByRegion/Canada地区的电影2018年的排名.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datas/RankByRegion/加拿大 CANADA地区的电影2018年的排名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datas/RankByRegion/加拿大 CANADA地区的电影2018年的排名.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datas/RankByRegion/印度 India地区的电影2018年的排名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datas/RankByRegion/印度 India地区的电影2018年的排名.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datas/RankByRegion/巴西 BRAZIL地区的电影2018年的排名.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datas/RankByRegion/巴西 BRAZIL地区的电影2018年的排名.csv" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,13 +15,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/src/DataAna.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataAna.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="8493">
               <caret line="447" column="21" selection-start-line="447" selection-start-column="21" selection-end-line="447" selection-end-column="21" />
               <folding>
                 <element signature="e#138#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spider_comment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="50" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/spider_film.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="50" selection-start-column="50" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,54 +76,45 @@
         <option value="$PROJECT_DIR$/Draw/DataAna.py" />
         <option value="$PROJECT_DIR$/src/DrawSth.py" />
         <option value="$PROJECT_DIR$/src/DataAna.py" />
-        <option value="$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/src/DataAna.py" />
+        <option value="$PROJECT_DIR$/src/DataAna.py" />
+        <option value="$PROJECT_DIR$/src/spider_comment.py" />
+        <option value="$PROJECT_DIR$/src/spider_film.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="24" />
-    <option name="width" value="1922" />
-    <option name="height" value="1062" />
+    <option name="y" value="23" />
+    <option name="width" value="1923" />
+    <option name="height" value="1063" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="Data_Analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Douban-Movie-Crawler-Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="Douban-Movie-Crawler-Analysis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\充当桌面专用\Douban-Movie-Crawler-Analysis" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="Data_Analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Douban-Movie-Crawler-Analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="Datas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data_Analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Douban-Movie-Crawler-Analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="Datas" type="462c0819:PsiDirectoryNode" />
-              <item name="SourceData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data_Analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Douban-Movie-Crawler-Analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Douban-Movie-Crawler-Analysis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\充当桌面专用\Douban-Movie-Crawler-Analysis" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DataAna.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
@@ -241,10 +261,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1922" height="1062" extended-state="6" />
+    <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2540854" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2538004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -279,8 +299,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Datas/ '历史'类型电影于2018年上映的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/Datas/ '奇幻'类型电影于2018年上映的排名.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/ '科幻'类型电影于2018年上映的排名.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/ '爱情'类型电影于2018年上映的排名.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/ '悬疑'类型电影于2018年上映的排名.csv" />
@@ -290,132 +308,71 @@
     <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/' 中国大陆'地区的电影于['2018']年的排名.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/' 冰岛'地区的电影于['2018']年的排名.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/SourceData/source_data.csv" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="846" selection-start-line="846" selection-end-line="846" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="881" selection-start-line="881" selection-end-line="881" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/core/frame.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/core/series.py" />
     <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/' 中国大陆 地区的电影2018年的排名.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/' 丹麦 地区的电影2018年的排名.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/' 丹麦 Denmark'地区的电影2018年的排名.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/' 丹麦'地区的电影2018年的排名.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/' 中国大陆'地区的电影2018年的排名.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/' 不丹 地区的电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByType/动作电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByType/古装电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByType/动画电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByType/剧情电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByType/冒险电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/不丹地区的电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/中国大陆地区的电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/丹麦 Denmark地区的电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/丹麦地区的电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/乌克兰地区的电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/乌拉圭地区的电影2018年的排名.csv" />
-    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Datas/RankByType/动作电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByType/古装电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByType/动画电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByType/剧情电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByType/冒险电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/不丹地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/中国大陆地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/丹麦 Denmark地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/丹麦地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/乌克兰地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/乌拉圭地区的电影2018年的排名.csv" />
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py" />
     <entry file="file://$PROJECT_DIR$/Draw/DataAna.py" />
     <entry file="file://$PROJECT_DIR$/Datas/SourceData/data2.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/SourceData/data3.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/SourceData/data6.csv" />
     <entry file="file://$PROJECT_DIR$/Datas/SourceData/output.csv" />
     <entry file="file://$PROJECT_DIR$/src/DrawSth.py" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/土耳其 Turkey地区的电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByType/戰爭 War电影2018年的排名.csv" />
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/SourceData/data1.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="175906">
-          <caret line="8985" column="64" selection-start-line="8985" selection-start-column="64" selection-end-line="8985" selection-end-column="64" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/Argentina地区的电影2018年的排名.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/Austria地区的电影2018年的排名.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/Hungary地区的电影2018年的排名.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/Poland地区的电影2018年的排名.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/乌干达 Uganda地区的电影2018年的排名.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/伊拉克 Iraq地区的电影2018年的排名.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByRegion/俄罗斯 Russia地区的电影2018年的排名.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByType/传记电影2018年的排名.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-2411" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByType/儿童电影2018年的排名.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1122" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/Datas/RankByType/喜剧电影2018年的排名.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Douban-Movie-Crawler-Analysis/src/DataAna.py">
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/土耳其 Turkey地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByType/戰爭 War电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/SourceData/data1.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/Argentina地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/Austria地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/Hungary地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/Poland地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/乌干达 Uganda地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/伊拉克 Iraq地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByRegion/俄罗斯 Russia地区的电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByType/传记电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByType/儿童电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/Datas/RankByType/喜剧电影2018年的排名.csv" />
+    <entry file="file://$PROJECT_DIR$/src/DataAna.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="8493">
           <caret line="447" column="21" selection-start-line="447" selection-start-column="21" selection-end-line="447" selection-end-column="21" />
           <folding>
             <element signature="e#138#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spider_comment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spider_film.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
